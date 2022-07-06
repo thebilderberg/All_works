@@ -1,0 +1,11 @@
+* {
+  width: 858 px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+
+h1, tbody, thead, ul, h2{
+  color: #d2d2d2;
+  font-size: 25px;
+}

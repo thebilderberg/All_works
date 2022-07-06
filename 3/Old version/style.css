@@ -1,0 +1,101 @@
+body {
+  background: #c7b39b url(background.jpg);               /* Цвет фона и путь к файлу   */
+  background-size: 100%;                            /* Растягиваем картинку       */
+  background-attachment: fixed
+}
+
+
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #02cb9f;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+}
+
+.keys {
+  margin-left: 70%;
+}
+
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background: rgba(143, 143, 143, 0.31);
+}
+
+.market, .market2, .cunteiner {
+  float: left;
+}
+
+
+.ramka {
+  border-radius: 2px;
+}
+
+.market_img {
+  border-radius: 5px;
+}
+
+.market, .market2 {
+  width: 20%;
+  text-align: center;
+}
+.cunteiner {
+  width: 60%;
+}
+
+.forma {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img.ramka:hover {
+  opacity: 0.60;                           /* прозрачность */
+  -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+  }
+
+
+img.market_img:hover {
+  opacity: 0.60;                           /* прозрачность */
+  -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+}
+
+.enter {
+  width: 300px;
+  height: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  clear: both;
+  background-color: #02cb9f;
+  position: absolute;
+}
+
+footer p {
+  margin-left: 90%;
+}
+
+button {
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  -moz-transition: all 0.2s ease-in-out;
+}
+
+button:active {
+  background-color: white;
+  color: rgb(133, 224, 4);
+}

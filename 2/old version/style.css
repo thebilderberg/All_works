@@ -1,0 +1,94 @@
+body {
+  background: #c7b39b url(cyber.jpg);               /* Цвет фона и путь к файлу   */
+  background-size: 100%;                            /* Растягиваем картинку       */
+  background-attachment: fixed                      /* Делаем картику неподвижной */
+}
+
+.cunteiner {
+  background-color: rgba(156, 156, 156, 0.64);
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Arial;
+  color: #493545
+}
+
+
+.headred, .enter {
+  height: 20px;
+}
+
+.headred {
+  /* background: #C0C0C0; */
+}
+
+.headred p {
+  color: black;
+}
+
+
+.enter {
+  /* background: #A9A9A9; */
+  text-align: center;
+}
+
+
+/* img {
+  width: 800px;
+} */
+
+.enter li {             /* Елемент li в классе enter         */
+  display: inline;      /* Выравнивание списка по горизонтали*/
+  margin-right: 90px;   /* Расстояние между элементами списка*/
+}
+
+
+.history {
+  /* background: #b6b8b6; */
+  width: 30%;            /*Делаем размер смежной ячейки*/
+  float:left;            /*Магия между двумя блоками(image)*/
+}
+
+.history p {
+  font-weight: bold;
+}
+
+
+.history, .image {       /*Добавляем одинаковую высоту смежным блокам*/
+  height: 600px;
+}
+
+.image {
+  width: 70%;            /*Делаем размер смежной ячейки*/
+  float:left;            /*Магия между двумя блоками(history)*/
+}
+
+.exit {
+  clear: both;           /* Обязательно чистим пространство после совмещения блоков по горизонтали*/
+  margin-left: 1000px;
+}
+
+
+.one_search, .two_search, .three_search, .four_search {
+  float:left;
+}
+.one_search{width:25%;}
+.two_search{width:25%;}
+.three_search{width:25%;}
+.four_search{width:25%;}
+
+.ramka {                       /* Рамка для изображения-ссылки*/
+  border: 4px double black;    /* Параметры границы */
+  background: #005b66;         /* Цвет фона */
+  padding: 10px;               /* Поля вокруг текста */
+}
+
+
+img.ramka:hover {
+  opacity: 0.60;                           /* прозрачность */
+  -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+  }
+
+.space {
+  clear: both;
+}
